@@ -20,6 +20,10 @@ class PageHome extends React.Component {
         location.hash = 'demo';
     }
 
+    personListLink() {
+        location.hash = 'person/list';
+    }
+
     handlePush() {
         salt.router.push({
             id: 'popwin',
@@ -52,6 +56,9 @@ class PageHome extends React.Component {
                 </div>
                 <div className="t-PL10 t-PR10 t-PT10">
                     <Button type="secondary" onClick={t.handleLink}>Demo</Button>
+                </div>
+                <div className="t-PL10 t-PR10 t-PT10">
+                    <Button type="secondary" onClick={t.personListLink}>Show Persons</Button>
                 </div>
             </div>
         );
