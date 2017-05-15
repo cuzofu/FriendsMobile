@@ -1,16 +1,19 @@
 {
-  "name": "FriendsMobile",
-  "options": {
-    "type": "salt",
-    "template": "C:\\Users\\chenliang\\.nowa-gui\\template\\nowa-template-salt-v_1",
-    "npm": "cnpm",
-    "vars": {
-      "__LOCAL__": true
-    },
-    "buildvars": {
-      "__LOCAL__": [
-        false
-      ]
+    "name": "FriendsMobile",
+    "options": {
+        "type": "salt",
+        "template": "~\\.nowa-gui\\template\\nowa-template-salt-v_1",
+        "npm": "npm",
+        "vars": {
+            "__LOCAL__": true,
+            "ENV": [
+                "test"
+            ]
+        },
+        "buildvars": {
+            "ENV": [
+                "test"
+            ]
+        }
     }
-  }
 }

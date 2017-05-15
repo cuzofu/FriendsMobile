@@ -1,0 +1,7 @@
+{
+    "DINTALK_API": true,
+    "corpId": "",
+    "APP_URL": "http://localhost:3000/",
+    "API_URL": "http://localhost:8080/",
+    "MOCK_URL": "http://localhost:3000/mock/"
+}
